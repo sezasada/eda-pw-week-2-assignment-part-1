@@ -42,6 +42,13 @@ else{
 if( luckyNumber == 2 && adventurous == true ) {
     console.log( 'Roll the dice!' );
 }
+else{
+    console.log( 'Do not roll the dice, you are not lucky' );
+}
+
+// decided to add an else statement for fun. I can delete it if I will get docked points for it. 
+
+
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
