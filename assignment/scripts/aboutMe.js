@@ -14,7 +14,7 @@ let luckyNumber = 13;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log( 'My name is', firstName, 'and I think', luckyNumber, 'is a winner!' )
+console.log( 'My name is', fullName, 'and I think', luckyNumber, 'is a winner!' )
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
@@ -31,7 +31,7 @@ const allowedPets = 5;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 
-if( adventurous == true ) {
+if( adventurous === true ) {
     console.log( 'Adventures are great!' );
 }
 else{
@@ -39,7 +39,7 @@ else{
 }
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if( luckyNumber == 2 && adventurous == true ) {
+if( luckyNumber === 2 && adventurous === true ) {
     console.log( 'Roll the dice!' );
 }
 else{
