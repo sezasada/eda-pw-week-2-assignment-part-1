@@ -81,5 +81,3 @@ if( pets > allowedPets) {
 //      You'll need to research how to use switch statements!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
-
